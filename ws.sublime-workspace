@@ -1,0 +1,624 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"face",
+				"faceVertexUvs"
+			],
+			[
+				"mat",
+				"material2"
+			],
+			[
+				"M",
+				"MeshPhongMaterial"
+			],
+			[
+				"da",
+				"dagobah-mod"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"c",
+				"colm\tcolumns"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"fl",
+				"flex\tdisplay"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "serve.bat",
+			"settings":
+			{
+				"buffer_size": 39,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 38676,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/Web/HTML5/Static/zyn-fp-2/.gitignore",
+			"settings":
+			{
+				"buffer_size": 78,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 15851,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "backend/process.php",
+			"settings":
+			{
+				"buffer_size": 6253,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "backend/dbConnect.php",
+			"settings":
+			{
+				"buffer_size": 4149,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 62,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "ws-sublime-workspace"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/mm-website"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/mm-website/index.html",
+		"/F/Web/HTML5/Static/cost-visualizer/index.html",
+		"/F/Web/HTML5/Static/cost-visualizer/serve.bat",
+		"/F/Web/HTML5/Static/cost-visualizer/scss.bat",
+		"/F/Web/MEAN/react-three/test/assets/corsucant/corsucant-01.mtl",
+		"/F/Web/MEAN/react-three/dir.bat",
+		"/F/Web/3D/Libraries, Tutorials/stemkoski.github.com-master/Three.js/Shader-Glow.html",
+		"/F/Web/MEAN/react-three/start.bat",
+		"/F/Web/MEAN/react-three/.gitignore",
+		"/F/Web/MEAN/react-three/test/serve.bat",
+		"/F/Web/MEAN/react-three/test/assets/endor/endor.mtl",
+		"/F/Web/MEAN/react-three/test/assets/dagobah-mod/dagobah.mtl",
+		"/F/Web/3D/Libraries, Tutorials/stemkoski.github.com-master/Three.js/Atmosphere.html",
+		"/F/Web/MEAN/react-three/public/assets/dagobah/dagobah.mtl",
+		"/F/Web/MEAN/react-three/test/assets/chair/Chair.mtl",
+		"/F/Web/3D/Work Done/zyn-3d-onepage/src/components/Scene.js",
+		"/F/Web/MEAN/react-three/test/js/script.js",
+		"/F/Web/MEAN/react-three/public/assets/endor/endor.mtl",
+		"/F/Web/MEAN/react-three/public/assets/geonosis/geonosis.mtl",
+		"/F/Web/MEAN/react-three/node_modules/react-scripts/config/webpack.config.js",
+		"/F/Web/3D/Work Done/zyn-3d-onepage/package.json",
+		"/F/Web/3D/Work Done/cube/index.html",
+		"/F/Web/MEAN/auth/re-fe/src/components/Scene.js",
+		"/F/Web/MEAN/react-three/src/index.js",
+		"/F/Web/MEAN/auth/re-fe/package.json",
+		"/F/Web/MEAN/nodester/nodester-re-heroku/package.json",
+		"/F/Web/MEAN/react-three/package.json",
+		"/F/Web/MEAN/react-projectlist/src/data/items.json",
+		"/F/Web/MEAN/react-three/src/components/TheRoom.js",
+		"/F/Web/MEAN/react-three/src/components/AnimatedCharacter.js",
+		"/F/Web/MEAN/nodester/nodester-re-heroku/src/App.js",
+		"/F/Web/MEAN/nodester/nodester-re-heroku/src/components/Nav.js",
+		"/F/Web/MEAN/react-projectlist/src/components/GalleryItem.js",
+		"/F/Web/MEAN/react-three/src/App.scss",
+		"/F/Web/Docs/ideas",
+		"/F/Web/MEAN/react-projectlist/src/components/MediaCard.js",
+		"/F/Web/MEAN/react-projectlist/src/scss/fonts.scss",
+		"/F/Web/MEAN/react-block-project/src/scss/fonts.scss",
+		"/F/Web/Practice Tasks/sample tasks",
+		"/F/Web/MEAN/react-projectlist/src/components/Gallery.js",
+		"/C/wamp/www/babyprog-new/js/controllers.js",
+		"/C/Users/anura/Downloads/browser.js",
+		"/F/Web/3D/Work Done/christmas-tree/js/script.js",
+		"/C/Users/anura/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/anura/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/anura/AppData/Roaming/Sublime Text 3/Packages/ESLint/ESLint.sublime-settings",
+		"/C/Users/anura/AppData/Roaming/Sublime Text 3/Packages/User/ESLint.sublime-settings",
+		"/F/Web/MEAN/react-projectlist/.eslintrc.js",
+		"/F/Web/MEAN/react-block-project/src/components/FileInputComponent.js",
+		"/F/Web/MEAN/react-block-project/src/components/PhotoBlock.js",
+		"/F/Web/MEAN/react-block-project/src/components/AutoCompleteComponent.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"C:\\Documents and Settings\\glenn\\My Documents\\3dsMax\\_IMAGE ~ MAP\\material\\lava\\",
+			"C:\\Documents and Settings\\glenn\\Desktop\\",
+			"Object3",
+			"add",
+			".tga",
+			"Map__14_Gradient_Ramp.tga",
+			"$(\"#three-ctn\")",
+			".three-ctn",
+			"C:\\Users\\ideac\\Desktop\\DAGOBAH\\",
+			"C:\\Users\\ideac\\Desktop\\",
+			"baseSpeed",
+			"handleCardClick",
+			"description",
+			"title",
+			"cardClicked",
+			"nRandomInt",
+			"randomInt",
+			"City",
+			"backgroundColor"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			".png",
+			"Map__14_Gradient_Ramp.png",
+			"document.getElementById(\"#three-ctn\")",
+			"#three-ctn",
+			"",
+			"handleOpen",
+			"description",
+			"handleCardClick",
+			"nRandomInt"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\wamp\\www\\mm-website"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "serve.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 38676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4852,
+								4852
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1700.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/F/Web/HTML5/Static/zyn-fp-2/.gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 78,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11683,
+								11683
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6248.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "backend/process.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "backend/dbConnect.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								168,
+								168
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 62,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								62
+							]
+						],
+						"settings":
+						{
+							"auto_name": "ws-sublime-workspace",
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.748520710059,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"dagobah-mod",
+				"test\\assets\\dagobah-mod\\dagobah.mtl"
+			],
+			[
+				"mediacard.js",
+				"src\\components\\MediaCard.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'light';
+  src: url('../fonts/Exo-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url('../fonts/Exo-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'bold';
+  src: url('../fonts/Exo-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'extra-bold';
+  src: url('../fonts/Exo-ExtraBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'black';
+  src: url('../fonts/Exo-Black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'light-2';
+  src: url('../fonts/Exo2-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'regular-2';
+  src: url('../fonts/Exo2-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'medium-2';
+  src: url('../fonts/Exo2-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'bold-2';
+  src: url('../fonts/Exo2-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'semi-bold-2';
+  src: url('../fonts/Exo2-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'extra-bold-2';
+  src: url('../fonts/Exo2-ExtraBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'black-2';
+  src: url('../fonts/Exo2-Black.otf') format('opentype');
+}
+
+.m2{ font-family: 'medium-2'; }
+.r{ font-family: 'regular'; }
+.r2{ font-family: 'regular-2'; }
+.l{ font-family: 'light'; }
+.l2{ font-family: 'light-2'; }
+.b{ font-family: 'bold'; }
+.b2{ font-family: 'bold-2'; }
+.sb2{ font-family: 'semi-bold-2'; }
+.eb{ font-family: 'extra-bold'; }
+.eb2{ font-family: 'extra-bold-2'; }
+.bl{ font-family: 'black'; }
+.bl2{ font-family: 'black-2'; }
