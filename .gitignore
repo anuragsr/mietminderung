@@ -1,6 +1,7 @@
 ws.sublime-workspace
 /versions
 /upload
+/tmpbkp
 specs
 dir.bat
 serve.bat
