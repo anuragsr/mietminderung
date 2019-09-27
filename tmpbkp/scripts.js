@@ -131,7 +131,7 @@ angular
     }else if(!angular.isUndefined($scope.currQues.l)){
       var ratio = $scope.currQues.l/18;
       if(ratio >= 1){
-        ratio-= 0.05;
+        ratio-= .05;
       }
       $scope.progress = Math.round(100 * ratio);
     }
@@ -248,8 +248,6 @@ angular
         q: 'Payment Successful',
         a: [ { type: 'payment-success' } ]
       }
-      
-      $scope.updateTextFile({ text: 'Payment Successful' })
     } else{      
       $scope.currQues = {
         q: 'Error in Payment',
@@ -302,40 +300,18 @@ angular
     $(window).scrollTop(0);
   }
 
-  $scope.goToThanks = function(obj){
+  $scope.goToThanks = function(){
     $scope.progress = 100;
     $scope.currQues = {
       q: '&nbsp;',
       a: [ { type: "thank"} ]
     }
-    $scope.updateTextFile(obj)
-  }
-
-  $scope.updateTextFile = function(obj){
-    // l(obj)
-    $scope.currFiles.text = obj.text
-    $scope.currFiles.user = $scope.currUser
-    $http({
-      url: "backend/update.php",
-      method: "POST",
-      data:  $scope.currFiles,
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
-    }).success(function(data, status, headers, config) {
-      l(data)
-    }).error(function(data, status, headers, config) {
-    });    
   }
 
   function uploadComplete(evt){
-    // l(evt.target.response)
-    try {      
-      var data = JSON.parse(evt.target.response);
-      // l(data)
-      $scope.currFiles = data
-    } catch(err){
-      l(err)
-    }
-
+    l(evt.target.response)
+    // var data = JSON.parse(evt.target.response);
+    // l(data)
     var rentQues, legalExpQues;
     answers.forEach(function(ans) {
       if(ans.q.a[0].type === "rent") rentQues = ans;
@@ -347,7 +323,7 @@ angular
     // l(rentQues, rentAns, legalExpQues, legalExpAns)
 
     if(rentAns > 900 || legalExpAns === "Ja"){      
-      $scope.goToThanks({ type: 'Rent größer als 900 oder Rechtsschutzversicherung' });
+      $scope.goToThanks();
     } else{
       $scope.goToPayment();
     }
@@ -398,10 +374,7 @@ angular
       postcode: $scope.inpObj2.postcode,
       notes: $scope.inpObj3.notes,
     };
-
-    $scope.currUser = user;
-
-    fd.append("user", angular.toJson($scope.currUser));
+    fd.append("user", angular.toJson(user));
 
     answers.forEach(function(obj){
       if(obj.a.type == 'icon-date'){

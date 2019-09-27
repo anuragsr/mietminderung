@@ -141,17 +141,19 @@ ul li:hover, a:hover{
 
 .main-bg-img{
   width: 100%;
-
-position: absolute;
-top: -93px;
-height: 1016px;
-z-index: -33;
-background-image: url('../img/background.jpg');
-background-position: center center;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+  position: absolute;
+  top: -93px;
+  height: 1016px;
+  z-index: -33;
+  background-image: url('../img/background.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.main-bg-img.expanded{
+  /*height: 1116px;*/
 }
 
 .ctn-main{
@@ -526,6 +528,75 @@ background-size: cover;
 
 .number h4, .number button, .rent button{
   margin-top: 60px;
+}
+
+
+.exp .main-content-title.payment-title{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.payment{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;  
+}
+.payment .ctn-pay-box{
+  border: 1px solid #e7e7e7;
+  border-radius: 3px;
+  margin: 0 10px;
+  /*width: 300px;*/
+  padding: 20px;
+}
+.payment .ctn-pay-list{
+  margin-top: 25px;
+  text-align: left;
+  font-size: 18px;
+}
+.payment .pay-list-item{
+  margin-bottom: -5px;
+}
+.payment .pay-list-item img{
+  height: 45px;
+}
+.payment .pay-list-item img.gr{
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+.payment .emphasis{
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+#ctn-pay-btn{
+  height: 53px;
+  /*width: 350px; 
+  height: 70px;*/
+}
+.payment a{
+  display: inline-block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.payment a span{
+  opacity: .3;
+}
+.payment.pay-footer a{
+  opacity: .3;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.payment-response{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.payment-response button{
+  margin-top: 25px;
 }
 
 .custom-slider.rzslider .rz-selection,

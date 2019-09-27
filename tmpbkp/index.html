@@ -299,7 +299,7 @@
                       </div>
                     </div>
                     <h1 class="r2 emphasis">Anwalt</h1>             
-                    <button class="btn btn-info btn-lg clear-blue b2" ng-click="goToThanks({ text: 'Anfrage stellen' })">
+                    <button class="btn btn-info btn-lg clear-blue b2" ng-click="goToThanks()">
                       Anfrage stellen
                     </button>
                     <a href="javacsript:void(0)">
@@ -309,7 +309,7 @@
                   </div>
                 </div>
                 <div ng-show="currQues.a[0].type == 'payment'" class="payment pay-footer">
-                    <a href="javacsript:void(0)" ng-click="goToThanks({ text: 'Keines der Optionen interessant' })">Keines der Optionen interessant</a>
+                    <a href="javacsript:void(0)" ng-click="goToThanks()">Keines der Optionen interessant</a>
                 </div>
 
                 <div ng-show="currQues.a[0].type == 'payment-success'" class="payment-response">
@@ -323,9 +323,6 @@
                   <h3>There was an error in payment.</h3>
                   <button class="btn btn-info btn-lg clear-blue b2" ng-click="goToPayment()">
                     Versuchen sie es nochmal
-                  </button>
-                  <button class="btn btn-info btn-lg clear-blue b2" ng-click="goToThanks({ text: 'Payment Failed' })">
-                    Zahlung überspringen
                   </button>
                 </div>
 
@@ -958,9 +955,8 @@
     <script src="js/ql17.js"></script>
     <script src="js/ql18.js"></script>
     <script src="js/ql19.js"></script>
-    <script src="https://www.paypal.com/sdk/js?client-id=Ae1xNztotAOoYXvoCR2WslClXoWLW9oQLW8baN6kssV9d74Wpu7BRzCsIcLh_oS2gdXGinGp1UFgQqU1&currency=EUR"></script> <!-- Real business account from payment@bellfargo.com -->
-    <!-- <script src="https://www.paypal.com/sdk/js?client-id=AcIvT3DwqDnBoMn6AZ6OBhh-JnMPhJbyQV50okBlfl92HrTHd0fBuc1qaDiNx0J0PEiNcHxN8DfSelk9&currency=EUR"></script> --> <!-- Sandbox Test from payment@bellfargo.com -->
-    <!-- <script src="https://www.paypal.com/sdk/js?client-id=AVHLGKmvdNm7qtO1wXqQ45OI78geuFhZxIE6Xtna99DkQvQyRSIIhT3kN5uXf18L6Ik3h8M_9vSaU63L&currency=EUR"></script> --> <!-- Sandbox Test from anurag.131092@gmail.com -->    
+    <script src="https://www.paypal.com/sdk/js?client-id=AVHLGKmvdNm7qtO1wXqQ45OI78geuFhZxIE6Xtna99DkQvQyRSIIhT3kN5uXf18L6Ik3h8M_9vSaU63L&currency=EUR"></script>
+    <!-- <script src="https://www.paypal.com/sdk/js?client-id=AQ0RQaWlh2HJU3AX2qSqbzrt7BetRiMyYFOzjP0YmCRCjC9aX9aZg8N1MzuQH8t0A66wa_LiDuAQ9bL0&currency=EUR"></script> -->
     <!-- <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=EUR"></script> -->
     <!-- <script src="js/ql20.js"></script> -->
   </body>
