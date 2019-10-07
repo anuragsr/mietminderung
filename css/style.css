@@ -588,13 +588,16 @@ ul li:hover, a:hover{
   text-decoration: underline;
 }
 
+img.pay-res-img{
+  height:70px;
+  margin-bottom: 35px;
+}
 .payment-response{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-
 .payment-response button{
   margin-top: 25px;
 }

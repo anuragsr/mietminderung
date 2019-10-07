@@ -313,14 +313,22 @@
                 </div>
 
                 <div ng-show="currQues.a[0].type == 'payment-success'" class="payment-response">
-                  <h3>Payment was completed successfully.</h3>
+                  <!-- <h3>Payment was completed successfully.</h3> -->                  
+                  <h3 class="res-text r2">
+                    Du hast eine Zahlung in Höhe von 9,95 EUR<br/>
+                    an Mietminderung.com vorgenommen
+                  </h3>
                   <button class="btn btn-info btn-lg clear-blue b2" ng-click="resetQuestions()">
                     Zurück zum Start
                   </button>
                 </div>
 
                 <div ng-show="currQues.a[0].type == 'payment-failure'" class="payment-response">
-                  <h3>There was an error in payment.</h3>
+                  <!-- <h3>There was an error in payment.</h3> -->
+                  <h3 class="res-text r2">
+                    Leider konnten der Bezahlvorgang nicht<br/>
+                    abgeschlossen werden
+                  </h3>
                   <button class="btn btn-info btn-lg clear-blue b2" ng-click="goToPayment()">
                     Versuchen sie es nochmal
                   </button>

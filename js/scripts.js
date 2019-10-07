@@ -167,6 +167,14 @@ angular
   //   q: 'Glückwunsch, dir stehen folgende<br/>Möglichkeiten zur Verfügung',
   //   a: [ { type: 'payment' } ]
   // }
+  // $scope.currQues = {
+  //   q: '<img class="pay-res-img" src="img/checkmark.png"/><br/>Zahlung erfolgreich',
+  //   a: [ { type: 'payment-success' } ]
+  // }
+  // $scope.currQues = {
+  //   q: '<img class="pay-res-img" src="img/alert-sign.png"/><br/>Zahlung fehlgeschlagen',
+  //   a: [ { type: 'payment-failure' } ]
+  // }
 
   $scope.prevQuestion = function(){
     $scope.currIdx--;
@@ -244,15 +252,23 @@ angular
   $scope.goToPaymentResponse = function(res){
     if(res === "success"){
       $scope.progress = 100;
+      // $scope.currQues = {
+      //   q: 'Payment Successful',
+      //   a: [ { type: 'payment-success' } ]
+      // }
       $scope.currQues = {
-        q: 'Payment Successful',
+        q: '<img class="pay-res-img" src="img/checkmark.png"/><br/>Zahlung erfolgreich',
         a: [ { type: 'payment-success' } ]
       }
       
       $scope.updateTextFile({ text: 'Payment Successful' })
     } else{      
+      // $scope.currQues = {
+      //   q: 'Error in Payment',
+      //   a: [ { type: 'payment-failure' } ]
+      // }
       $scope.currQues = {
-        q: 'Error in Payment',
+        q: '<img class="pay-res-img" src="img/alert-sign.png"/><br/>Zahlung fehlgeschlagen',
         a: [ { type: 'payment-failure' } ]
       }
     }
