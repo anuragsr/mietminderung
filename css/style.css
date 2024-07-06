@@ -127,7 +127,10 @@ ul li:hover, a:hover{
   height: 27px;
 }
 
-
+section{
+  background: url(../img/white-bg2.jpg) no-repeat center;
+  background-size: cover;
+}
 
 /* Section 1 */
 
@@ -138,14 +141,14 @@ ul li:hover, a:hover{
   min-height: 931px;
   padding-bottom: 100px;
 }
-
-.main-bg-img{
+.main{ background: none;}
+.main .main-bg-img{
   width: 100%;
   position: absolute;
   top: -93px;
   height: 1016px;
   z-index: -33;
-  background-image: url('../img/background.jpg');
+  background-image: url('../img/bg23.jpg');
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -705,6 +708,7 @@ img.star{
 }
 
 .ctn-reviews img.trust{
+  filter: invert(1);
   height: 5vh;
 }
 
@@ -723,6 +727,7 @@ img.star{
 }
 
 .ctn-reviews .float-right{
+  filter: invert(1);
   position: relative;
   text-align: right;
   bottom: 2vh;
@@ -929,6 +934,7 @@ img.star{
 }
 
 .box.left-box{
+  background: #fff;
   border: 3px solid rgba(110, 128, 143, 0.3);
 }
 .box.left-box .title{
@@ -1102,6 +1108,9 @@ img.star{
 }
 
 /* Section 7 */
+.section7{
+  padding: 6vw 0vw;
+}
 
 .section7 .title{
   font-size: 39px;
@@ -1209,7 +1218,7 @@ img.star{
 /* Section 9 */
 
 .section9{
-  padding: 0 5vw;
+  padding: 5vw;
 }
 
 .section9 .inner{
